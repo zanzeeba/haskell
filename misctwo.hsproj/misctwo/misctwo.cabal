@@ -1,0 +1,17 @@
+cabal-version: 2.4
+name: misctwo
+version: 1.0
+copyright: mine all mine
+maintainer: john m howitt
+author: john m howitt
+stability: experimental
+synopsis: to learn haskell
+category: tests
+x-ghc-framework-version: 8.6.4-13.14-2
+x-last-ide-version: HfM1.7.0
+
+executable misctwo
+    main-is: Main.hs
+    default-language: Haskell2010
+    build-depends:
+        base -any

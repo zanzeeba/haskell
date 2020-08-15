@@ -1,0 +1,23 @@
+-- Haskell Playground 1.0
+ 
+signumy 4
+
+odds 9
+
+foldl (/) 32 [4,2,4]
+
+[x^2 | x <- [1..6]]
+
+concatx [[1..6],[2,5]]
+
+factors 104
+
+primes 40
+
+fizzbuzz
+
+
+
+in_range 4 5 3
+
+in_range_a 4 5 3
