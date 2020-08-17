@@ -1,0 +1,33 @@
+-- Haskell Playground 1.0
+asc3 = asc 3 19
+--asc3
+
+head1 asc3
+
+sum1 asc3
+
+evens1 asc3
+
+odds1 asc3
+
+Lists.fst (1, 2, 3)
+Lists.snd (1, 2, 3)
+
+addTuples [(1,2),(2,3), (100,100)]
+
+add3Tuples [(1,2,4),(2,3,7), (100,100,-5)]
+
+Lists.elem 2 asc3
+
+remdupes = [1,2,3,4,3,4,5,6,5,6,7,8]
+--remdupes = []
+
+nub1 remdupes
+
+
+isAsc [1,2,3,4,5,4,3,2,9]
+
+hasPath [(1,2),(2,3),(3,2),(4,3),(4,5)] 1 5
+hasPath [(1,2),(2,3),(3,2),(4,3),(4,5)] 1 1
+
+hasPath [] 1 1

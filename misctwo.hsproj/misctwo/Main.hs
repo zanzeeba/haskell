@@ -17,9 +17,10 @@ fac1 n
 -- otherwise always evaluates to true
 
 -- accumulators
-
+-- this is an example of tail recursion
 fac2 n = aux n 1
   where
     aux n acc
       | n <= 1 = acc
       | otherwise = aux (n-1) (n*acc)
+      

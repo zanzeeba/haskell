@@ -12,6 +12,8 @@ x-last-ide-version: HfM1.7.0
 
 executable misctwo
     main-is: Main.hs
+    other-modules:
+        Lists
     default-language: Haskell2010
     build-depends:
         base -any
